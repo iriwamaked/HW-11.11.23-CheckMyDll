@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MyFirstDll">
+      <HintPath>..\..\MyFirstDll\MyFirstDll\bin\Debug\net7.0\MyFirstDll.dll</HintPath>
+    </Reference>
+    <Reference Include="MySecondDll">
+      <HintPath>..\..\MySecondDll\MySecondDll\bin\Debug\net7.0\MySecondDll.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
